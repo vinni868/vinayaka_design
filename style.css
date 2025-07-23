@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+     margin: 0;
+    padding: 0;
+    width: 100%;
+  
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(ganesha.jpg);
+    background-position: center;
+    background-size: cover;
+     min-height: 100vh;
+    
+}
+
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin: auto;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 65px
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+
+
+
+/* it is the css code for ganesha collection html */
+.idols{
+    border-radius: 10%;
+    padding-left: 35px;
+    padding-bottom: 35px;
+}
+h3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #ff7200;
+    text-align: center;
+    color: #fff;
+    border-style:ridge;
+}
+
+.h1{
+    color:rgba(204, 123, 18, 0.995);
+    font-family: Arial;
+   position: fixed;    /* Stays fixed on screen */
+  bottom: 70px;      
+  right: 50px;        
+  height: 50%;
+  font-size: 14px;
+}
+/* .tha{
+     color:rgba(204, 123, 18, 0.995);
+    text-align: bottom;
+    height: 50%;
+  font-size: 14px;
+    bottom: 70px;      
+  right: 50px; 
+} */
+.image-container .idols:hover{
+    
+    transition: transform 0.2px ease-in;
+}
+.image-container img:hover{
+    border-radius: 15%;
+    /* border:2px solid; */
+    box-shadow: 0px 10px 50px rgb(0, 0, 0);
+    transition: transform 0.2px ease-in;
+}
+
+
+.image-container {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container .idols:hover{
+    transform: scale(1.2,1.2);
+}
+@media (max-width: 768px) {
+  .main {
+      background-color: rgba(184, 184, 140, 0.739);
+    background: url("ganesha.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background: url("ganesha.jpg") no-repeat center center fixed;
+      background-color: rgba(184, 184, 140, 0.739);
+    background-size: cover;
+  }
+}
